@@ -4,7 +4,7 @@ const cifrador = document.getElementById('cifrador');
 const rango = document.getElementById('rango');
 const resultado = document.getElementById('resultado');
 
-const shifMessage = () => {
+const shifMessage = () => { 
     const palabraArray = [...entradaOriginal.value.toUpperCase()];
     printChar(0, palabraArray);
 }
